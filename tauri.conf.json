@@ -61,7 +61,24 @@
         "width": 1500,
         "url": "https://claude.ai/",
         "x": 100,
-        "y": 0
+        "y": 0,
+        "menu": [
+          {
+            "label": "View",
+            "submenu": [
+              {
+                "label": "Zoom In",
+                "accelerator": "CmdOrCtrl+Plus",
+                "id": "zoom_in"
+              },
+              {
+                "label": "Zoom Out",
+                "accelerator": "CmdOrCtrl+-",
+                "id": "zoom_out"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
